@@ -1,0 +1,10 @@
+--CREATE TABLE users (
+--    id              INTEGER auto_increment PRIMARY KEY,
+--    name            VARCHAR(256) NOT NULL,
+--    surname         VARCHAR(256) NOT NULL,
+--    birthday        DATE);
+--
+--  CREATE TABLE subscriptions (
+--    id             INTEGER auto_increment PRIMARY KEY,
+--    user_id        INTEGER,
+--    start_date     DATE);
