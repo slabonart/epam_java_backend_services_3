@@ -16,7 +16,7 @@ public class SpringFoxConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .useDefaultResponseMessages(false)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("pl.slabonart.jabs_3"))
+                .apis(RequestHandlerSelectors.basePackage("pl.slabonart.epam_java_backend_services_3"))
                 .paths(PathSelectors.any())
                 .build();
     }
